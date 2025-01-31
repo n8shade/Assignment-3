@@ -46,28 +46,25 @@
     <header class="container mx-auto">
         <!-- navbar -->
         <div class="navbar bg-base-100 sora border-b-2 border-black lg:border-none">
-            <div class="navbar-start w-full lg:w-[50%] justify-between flex-row-reverse lg:flex-row lg:justify-normal">
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
+            <div class="navbar-start lg:w-[50%] w-full justify-between flex-row-reverse lg:flex-row lg:justify-normal">
+                <div class="dropdown mr-7 lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a> Find a pet</a></li>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-5 p-2 shadow">
+                        <li><a>Find a pet</a></li>
                         <li><a>Breeds</a></li>
                         <li><a>Contact us</a></li>
                         <li><a>Login</a></li>
                         <li><a>Register</a></li>
                     </ul>
                 </div>
-                <img src="c1-assets/logo-header.png" alt="">
+                <img src="c1-assets/logo-header.png" alt="" class="mr-0 lg:mr-4">
                 <a class="hidden lg:flex btn btn-ghost text-xl">Browse<span class="text-[#FFDC26]">4</span>Pets</a>
             </div>
-            <div class="navbar-center hidden lg:flex ">
+            <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
                     <li><a> Find a pet</a></li>
                     <li><a>Breeds</a></li>
@@ -83,7 +80,7 @@
         </div>
         <!-- header content -->
         <div style="background-image: url('c1-assets/cat-big.png');" class="hero bg-contain bg-no-repeat bg-bottom lg:bg-right-bottom relative h-[550px]">
-            <div class="lg:absolute lg:top-16 lg:left-0 gap-y-8">
+            <div class="mt-[-100px] lg:absolute lg:top-16 lg:left-0 p-4">
                 <h1 class="text-3xl lg:text-5xl font-bold">Pamper Your Pet, <br> Because They Deserve <br> the Best</h1>
                 <p class="sora text-xl py-2 font-normal opacity-70">
                     Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now
