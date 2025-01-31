@@ -49,11 +49,14 @@
             <div class="navbar-start lg:w-[50%] w-full justify-between flex-row-reverse lg:flex-row lg:justify-normal">
                 <div class="dropdown mr-7 lg:hidden">
                     <div tabindex="0" role="button" class="btn btn-ghost">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-5 p-2 shadow">
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-5 p-2 shadow">
                         <li><a>Find a pet</a></li>
                         <li><a>Breeds</a></li>
                         <li><a>Contact us</a></li>
@@ -79,18 +82,98 @@
             </div>
         </div>
         <!-- header content -->
-        <div style="background-image: url('c1-assets/cat-big.png');" class="hero bg-contain bg-no-repeat bg-bottom lg:bg-right-bottom relative h-[550px]">
+        <div style="background-image: url('c1-assets/cat-big.png');"
+            class="hero bg-contain bg-no-repeat bg-bottom lg:bg-right-bottom relative h-[550px]">
             <div class="mt-[-100px] lg:mt-0 lg:absolute lg:top-16 lg:left-0 p-4">
                 <h1 class="text-3xl lg:text-5xl font-bold">Pamper Your Pet, <br> Because They Deserve <br> the Best</h1>
-                <p class="sora text-xl py-2 font-normal opacity-70">
+                <p class="sora mt-2 text-xl py-2 font-normal opacity-70">
                     Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now
                     and make tails wag with joy!
                 </p>
-                <button class="btn bg-btn-primary sora font-normal px-7">Find a pet</button>
+                <button class="btn mt-2 lg:mt-4 animate-pulse bg-btn-primary sora font-normal px-7">Find a pet</button>
             </div>
         </div>
     </header>
-
+    <main class="container mx-auto">
+        <!-- pet category -->
+        <section class="mt-14">
+            <h2 class="p-4 text-2xl font-bold">Browse By Categories</h2>
+            <div class=" p-3 lg:p-6 grid grid-cols-2 lg:flex lg:flex-wrap lg:justify-between gap-y-4">
+                <!-- card 1 -->
+                <div class="card bg-[#F9DF8A] w-44 shadow-xl">
+                    <div class="card-body items-center text-center">
+                        <div class="avatar">
+                            <div class="w-24 h-24 bg-white rounded-full p-6">
+                                <img src="c1-assets/dog-cartoon.png" alt="" />
+                            </div>
+                        </div>
+                        <h2 class="card-title">Dog</h2>
+                        <p class="sora">3 Items</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card bg-[#F9DF8A] w-44 shadow-xl">
+                    <div class="card-body items-center text-center">
+                        <div class="avatar">
+                            <div class="w-24 h-24 bg-white rounded-full p-6">
+                                <img src="c1-assets/fish-cartoon.png" alt="" />
+                            </div>
+                        </div>
+                        <h2 class="card-title">Fish</h2>
+                        <p class="sora">3 Items</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card bg-[#F9DF8A] w-44 shadow-xl">
+                    <div class="card-body items-center text-center">
+                        <div class="avatar">
+                            <div class="w-24 h-24 bg-white rounded-full p-6">
+                                <img src="c1-assets/cat-cartoon.png" alt="" />
+                            </div>
+                        </div>
+                        <h2 class="card-title">Cat</h2>
+                        <p class="sora">3 Items</p>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card bg-[#F9DF8A] w-44 shadow-xl">
+                    <div class="card-body items-center text-center">
+                        <div class="avatar">
+                            <div class="w-24 h-24 bg-white rounded-full p-6">
+                                <img src="c1-assets/bird-cartoon.png" alt="" />
+                            </div>
+                        </div>
+                        <h2 class="card-title">Birds</h2>
+                        <p class="sora">3 Items</p>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="card bg-[#F9DF8A] w-44 shadow-xl">
+                    <div class="card-body items-center text-center">
+                        <div class="avatar">
+                            <div class="w-24 h-24 bg-white rounded-full p-6">
+                                <img src="c1-assets/mouse-cartoon.png" alt="" />
+                            </div>
+                        </div>
+                        <h2 class="card-title">Small Pet</h2>
+                        <p class="sora">3 Items</p>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="card bg-[#F9DF8A] w-44 shadow-xl">
+                    <div class="card-body items-center text-center">
+                        <div class="avatar">
+                            <div class="w-24 h-24 bg-white rounded-full p-6">
+                                <img src="c1-assets/rabbit-cartoon.png" alt="" />
+                            </div>
+                        </div>
+                        <h2 class="card-title">Rabbit</h2>
+                        <p class="sora">2 Items</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
