@@ -192,7 +192,7 @@
                 <div
                     class=" mt-8 lg:mt-auto ml-10 lg:ml-auto grid grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8 lg:gap-x-48 lg:gap-y-16">
                     <!-- card 1 -->
-                    <div class="hidden lg:flex items-center gap-2">
+                    <div class="hidden lg:flex items-center gap-2 shadow-xl">
                         <div>
                             <img src="c1-assets/dog-cartoon.png" alt="">
                         </div>
@@ -206,7 +206,7 @@
                         </div>
                     </div>
                     <!-- card 2 -->
-                    <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-2 shadow-xl">
                         <div>
                             <img src="c1-assets/fish-cartoon.png" alt="">
                         </div>
@@ -220,7 +220,7 @@
                         </div>
                     </div>
                     <!-- card 3 -->
-                    <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-2 shadow-xl">
                         <div>
                             <img src="c1-assets/bird-cartoon.png" alt="">
                         </div>
@@ -234,7 +234,7 @@
                         </div>
                     </div>
                     <!-- card 4 -->
-                    <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-2 shadow-xl">
                         <div>
                             <img src="c1-assets/rabbit-cartoon.png" alt="">
                         </div>
@@ -248,7 +248,7 @@
                         </div>
                     </div>
                     <!-- card 5 -->
-                    <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-2 shadow-xl">
                         <div>
                             <img src="c1-assets/bird-cartoon.png" alt="">
                         </div>
@@ -262,7 +262,7 @@
                         </div>
                     </div>
                     <!-- card 6 -->
-                    <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-2 shadow-xl">
                         <div>
                             <img src="c1-assets/pet-couch.png" alt="">
                         </div>
@@ -276,7 +276,7 @@
                         </div>
                     </div>
                     <!-- card 7 -->
-                    <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-2 shadow-xl">
                         <div>
                             <img src="c1-assets/fish-cartoon.png" alt="">
                         </div>
@@ -290,7 +290,7 @@
                         </div>
                     </div>
                     <!-- card 8 -->
-                    <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-2 shadow-xl">
                         <div>
                             <img src="c1-assets/pet-couch.png" alt="">
                         </div>
@@ -304,7 +304,7 @@
                         </div>
                     </div>
                     <!-- card 9 -->
-                    <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-2 shadow-xl">
                         <div>
                             <img src="c1-assets/rabbit-cartoon.png" alt="">
                         </div>
@@ -351,33 +351,49 @@
                 </div>
             </div>
         </section>
+        <!-- newsletter -->
+        <section class="-mb-32 lg:-mb-60 mt-8 lg:mt-32 w-[90%] lg:w-[1200px] ml-5 lg:ml-11">
+            <div class="flex flex-col lg:flex-row items-center lg:justify-evenly relative z-[10] bg-white">
+                <img src="c1-assets/cute-pet-mid.png" alt="">
+                <div class=" flex flex-col items-center lg:items-start">
+                    <h2 class="font-normal text-xl lg:text-3xl mb-2 lg:mb-5">Get Pawsome News!</h2>
+                    <p class="sora font-normal mb-4 lg:mb-9">Exclusive training tips, ticks, product deals and more.</p>
+                    <input type="text" placeholder="Enter email..."
+                        class="input input-bordered w-full max-w-xs sora mb-4 lg:mb-9" /><br>
+                    <a class="btn bg-btn-primary font-normal px-7">Subscribe</a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="footer bg-[#FFDC2680] text-base-content p-10">
-        <!-- left -->
-        <nav>
-            <div class="flex items-center gap-x-4">
-                <img src="c1-assets/logo-footer.png" alt="">
-                <a class="link link-hover sora font-semibold">Browse Pets</a>
-            </div>
-            <p class="sora opacity-70">Discover a world of treats, toys, and <br> essentials handpicked for your furry
-                friends</p>
-        </nav>
-        <!-- center -->
-        <nav class="sora lg:mt-5">
-            <a class="link link-hover">Find a pet</a>
-            <a class="link link-hover">Breeds</a>
-            <a class="link link-hover">Contact Us</a>
-        </nav>
-        <!-- right -->
-        <nav class="lg:mt-10">
-            <h6 class="footer-title">Follow us</h6>
-            <div class="grid grid-flow-col gap-4">
-                <a><i class="fa-brands fa-facebook"></i></a>
-                <a><i class="fa-brands fa-instagram"></i></a>
-                <a><i class="fa-brands fa-linkedin"></i></a>
-                <a><i class="fa-brands fa-youtube"></i></a>
-            </div>
-        </nav>
+    <footer class="footer z-0  container lg:mx-auto relative h-[420px] bg-[#FFDC2680] text-base-content">
+        <div class="footer mx-2 px-2 lg:px-10 absolute bottom-0 lg:justify-between">
+            <!-- left -->
+            <nav>
+                <div class="flex items-center gap-x-4">
+                    <img src="c1-assets/logo-footer.png" alt="">
+                    <a class="link link-hover sora font-semibold">Browse Pets</a>
+                </div>
+                <p class="sora opacity-70">Discover a world of treats, toys, and <br> essentials handpicked for your
+                    furry
+                    friends</p>
+            </nav>
+            <!-- center -->
+            <nav class="sora lg:mt-5">
+                <a class="link link-hover">Find a pet</a>
+                <a class="link link-hover">Breeds</a>
+                <a class="link link-hover">Contact Us</a>
+            </nav>
+            <!-- right -->
+            <nav class="lg:mt-10">
+                <h6 class="footer-title">Follow us</h6>
+                <div class="grid grid-flow-col gap-4">
+                    <a><i class="fa-brands fa-facebook"></i></a>
+                    <a><i class="fa-brands fa-instagram"></i></a>
+                    <a><i class="fa-brands fa-linkedin"></i></a>
+                    <a><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </nav>
+        </div>
     </footer>
 </body>
 
