@@ -43,7 +43,7 @@
 </head>
 
 <body class="adlam-display">
-    <header class="container mx-auto">
+    <header class="container mx-0 lg:mx-auto">
         <!-- navbar -->
         <div class="navbar bg-base-100 sora border-b-2 border-black lg:border-none">
             <div class="navbar-start lg:w-[50%] w-full justify-between flex-row-reverse lg:flex-row lg:justify-normal">
@@ -94,13 +94,13 @@
             </div>
         </div>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-0 lg:mx-auto">
         <!-- pet category -->
         <section class="mt-14">
-            <h2 class="p-4 text-2xl font-bold">Browse By Categories</h2>
-            <div class=" p-3 lg:p-6 grid grid-cols-2 lg:flex lg:flex-wrap lg:justify-between gap-y-4">
+            <h2 class="p-3 text-2xl font-bold">Browse By Categories</h2>
+            <div class="p-4 lg:p-6 grid grid-cols-2 items-center lg:flex lg:flex-wrap lg:justify-between gap-y-4">
                 <!-- card 1 -->
-                <div class="card bg-[#F9DF8A] w-44 shadow-xl">
+                <div class="card bg-[#F9DF8A] w-36 lg:w-44 shadow-xl">
                     <div class="card-body items-center text-center">
                         <div class="avatar">
                             <div class="w-24 h-24 bg-white rounded-full p-6">
@@ -112,7 +112,7 @@
                     </div>
                 </div>
                 <!-- card 2 -->
-                <div class="card bg-[#F9DF8A] w-44 shadow-xl">
+                <div class="card bg-[#F9DF8A] w-36 lg:w-44 shadow-xl">
                     <div class="card-body items-center text-center">
                         <div class="avatar">
                             <div class="w-24 h-24 bg-white rounded-full p-6">
@@ -124,7 +124,7 @@
                     </div>
                 </div>
                 <!-- card 3 -->
-                <div class="card bg-[#F9DF8A] w-44 shadow-xl">
+                <div class="card bg-[#F9DF8A] w-36 lg:w-44 shadow-xl">
                     <div class="card-body items-center text-center">
                         <div class="avatar">
                             <div class="w-24 h-24 bg-white rounded-full p-6">
@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <!-- card 4 -->
-                <div class="card bg-[#F9DF8A] w-44 shadow-xl">
+                <div class="card bg-[#F9DF8A] w-36 lg:w-44 shadow-xl">
                     <div class="card-body items-center text-center">
                         <div class="avatar">
                             <div class="w-24 h-24 bg-white rounded-full p-6">
@@ -148,7 +148,7 @@
                     </div>
                 </div>
                 <!-- card 5 -->
-                <div class="card bg-[#F9DF8A] w-44 shadow-xl">
+                <div class="card bg-[#F9DF8A] w-36 lg:w-44 shadow-xl">
                     <div class="card-body items-center text-center">
                         <div class="avatar">
                             <div class="w-24 h-24 bg-white rounded-full p-6">
@@ -160,7 +160,7 @@
                     </div>
                 </div>
                 <!-- card 6 -->
-                <div class="card bg-[#F9DF8A] w-44 shadow-xl">
+                <div class="card bg-[#F9DF8A] w-36 lg:w-44 shadow-xl">
                     <div class="card-body items-center text-center">
                         <div class="avatar">
                             <div class="w-24 h-24 bg-white rounded-full p-6">
@@ -173,6 +173,153 @@
                 </div>
             </div>
         </section>
+        <!-- trending products -->
+        <section class="mt-14">
+            <h2 class="text-2xl p-4 font-bold">Trending Products</h2>
+            <div class="lg:flex items-center gap-x-16">
+                <div class="h-[402px] w-auto lg:w-[424px] p-4">
+                    <div style="background-image: url('c1-assets/cute-pet-small.png');"
+                        class="hero rounded-2xl bg-[#F9DF8A] relative h-[402px] bg-auto bg-no-repeat bg-right-bottom">
+                        <div class="absolute top-10 left-5 lg:left-10">
+                            <h1 class="text-3xl lg:text-4xl font-bold">T-Shirts For Dogs</h1>
+                            <p class="sora mt-2 text-xl py-2 font-normal opacity-70">Discover a world of treats, toys,
+                                and essentials handpicked for!</p>
+                            <button class="btn mt-2 lg:mt-4 bg-white sora font-normal px-7">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 9 cards -->
+                <div class=" mt-8 lg:mt-auto ml-10 lg:ml-auto grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-x-48 lg:gap-y-16">
+                    <!-- card 1 -->
+                    <div class="hidden lg:flex items-center gap-2">
+                        <div>
+                            <img src="c1-assets/dog-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="c1-assets/star.png" alt="">
+                                <p class="sora">4.5</p>
+                            </div>
+                            <h3 class="font-medium sora">Pet Bed</h3>
+                            <p class="font-medium sora">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="flex items-center gap-2">
+                        <div>
+                            <img src="c1-assets/fish-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="c1-assets/star.png" alt="">
+                                <p class="sora">4.5</p>
+                            </div>
+                            <h3 class="font-medium sora">Pet Bed</h3>
+                            <p class="font-medium sora">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="flex items-center gap-2">
+                        <div>
+                            <img src="c1-assets/bird-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="c1-assets/star.png" alt="">
+                                <p class="sora">4.5</p>
+                            </div>
+                            <h3 class="font-medium sora">Pet Bed</h3>
+                            <p class="font-medium sora">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="flex items-center gap-2">
+                        <div>
+                            <img src="c1-assets/rabbit-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="c1-assets/star.png" alt="">
+                                <p class="sora">4.5</p>
+                            </div>
+                            <h3 class="font-medium sora">Pet Bed</h3>
+                            <p class="font-medium sora">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card 5 -->
+                    <div class="flex items-center gap-2">
+                        <div>
+                            <img src="c1-assets/bird-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="c1-assets/star.png" alt="">
+                                <p class="sora">4.5</p>
+                            </div>
+                            <h3 class="font-medium sora">Pet Bed</h3>
+                            <p class="font-medium sora">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card 6 -->
+                    <div class="flex items-center gap-2">
+                        <div>
+                            <img src="c1-assets/pet-couch.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="c1-assets/star.png" alt="">
+                                <p class="sora">4.5</p>
+                            </div>
+                            <h3 class="font-medium sora">Pet Bed</h3>
+                            <p class="font-medium sora">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card 7 -->
+                    <div class="flex items-center gap-2">
+                        <div>
+                            <img src="c1-assets/fish-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="c1-assets/star.png" alt="">
+                                <p class="sora">4.5</p>
+                            </div>
+                            <h3 class="font-medium sora">Pet Bed</h3>
+                            <p class="font-medium sora">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card 8 -->
+                    <div class="flex items-center gap-2">
+                        <div>
+                            <img src="c1-assets/pet-couch.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="c1-assets/star.png" alt="">
+                                <p class="sora">4.5</p>
+                            </div>
+                            <h3 class="font-medium sora">Pet Bed</h3>
+                            <p class="font-medium sora">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card 9 -->
+                    <div class="flex items-center gap-2">
+                        <div>
+                            <img src="c1-assets/rabbit-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="c1-assets/star.png" alt="">
+                                <p class="sora">4.5</p>
+                            </div>
+                            <h3 class="font-medium sora">Pet Bed</h3>
+                            <p class="font-medium sora">$39.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
     </main>
 </body>
 
